@@ -1,7 +1,11 @@
 /* Show container bounds */
-div.bound, span.bound {
+div, span {
 	border: 2px dashed;
 	border-color: #ccc;
+}
+
+.nobound {
+	border: 0px none;
 }
 
 .task02 {

@@ -4,6 +4,7 @@
 }
 
 /* Show container bounds */
+/* Task 02 */
 div, span {
 	border: 2px dashed;
 	border-color: #ccc;
@@ -20,6 +21,11 @@ div, span {
 
 .task02-external {
 	color: darkorange;
+}
+
+/* Won't be used */
+.task02-inline {
+	color: hsl(0, 50%, 40%);
 }
 
 /* Task 03 */

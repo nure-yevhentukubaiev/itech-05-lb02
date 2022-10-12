@@ -1,0 +1,14 @@
+/* Show container bounds */
+div.bound, span.bound {
+	border: 2px dashed;
+	border-color: #ccc;
+}
+
+.task02 {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.task02-external {
+	color: darkorange;
+}

@@ -23,6 +23,11 @@ div, span {
 	color: darkorange;
 }
 
+/* Won't be used */
+.task02-inline {
+	color: hsl(0, 50%, 40%);
+}
+
 /* Task 03 */
 /* Container for task03 demonstration */
 .task03 {

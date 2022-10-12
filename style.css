@@ -1,3 +1,8 @@
+* {
+	font-size: 1.1rem;
+	/*font-style: dashed;*/
+}
+
 /* Show container bounds */
 div, span {
 	border: 2px dashed;
@@ -15,4 +20,70 @@ div, span {
 
 .task02-external {
 	color: darkorange;
+}
+
+/* Task 03 */
+/* Container for task03 demonstration */
+.task03 {
+	height: 300px;
+	display: flex;
+	align-items: center;
+	align-content: space-evenly;
+	justify-content: space-evenly;
+	padding: 8px;
+	flex-wrap: wrap;
+}
+
+.task03 > *:hover {
+	box-shadow: 0px 6px 10px 2px rgba(200, 0, 0, 0.4);
+	background-color: #ff8;
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.task03 > * {
+	box-shadow: 0px 3px 4px 2px rgba(200, 0, 0, 0.2);
+	border-radius: 10px;
+	transition: 0.4s;
+	background-color: #ed3;
+	padding: 1em;
+	max-width: 200px;
+}
+
+.task03 > *:nth-child(odd) {
+	background-color: #ccf;
+}
+
+/* Class or id selector */
+#id03 {
+	text-shadow: 6px -6px 2px;
+}
+
+.id03 {
+	text-shadow: -0px -3px 4px;
+}
+
+/* |= selector */
+[class|="agent003"] {
+	color: #389;
+}
+
+[class="agent003-wavy"] {
+	text-decoration: wavy underline;
+}
+
+
+/* Won't be ever seen */
+[class^="007"] {
+	text-decoration: wavy line-through;
+}
+
+
+*[class*="agent003"]:first-letter {
+	font-size: 2em;
+	color: maroon;
+}
+
+.agent003_underlined {
+	text-decoration: dashed underline;
 }

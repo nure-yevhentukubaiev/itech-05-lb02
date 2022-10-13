@@ -148,10 +148,10 @@ div, span {
 	list-style: inside;
 }
 
-.task06-01 > p:nth-child(2) {
+.task06-01 > p:nth-child(1) {
 	list-style-image: url("img/color_picker_4_16x16x1.png");
 }
-.task06-01 > p:nth-child(1) {
+.task06-01 > p:nth-child(2) {
 	list-style-image: url("img/move_4_16x16x1.png");
 }
 .task06-01 > p:nth-child(3) {
@@ -159,4 +159,26 @@ div, span {
 }
 .task06-01 > p:nth-child(4) {
 	list-style-image: url("img/vertical_text_4_16x16x1.png");
+}
+
+.task06-02 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.task06-02 > * {
+	background: darkblue;
+	--task06-02-base: 100px;
+	width: var(--task06-02-base);
+	max-width: var(--task06-02-base);
+	height: var(--task06-02-base);
+	max-height: var(--task06-02-base);
+	margin: .3em;
+}
+
+.task06-02-long {
+	height: calc(var(--task06-02-base) * 2);
+	max-height: calc(var(--task06-02-base) * 2);
 }

@@ -137,3 +137,26 @@ div, span {
 	top: -1px;
 	background: lime;
 }
+
+/* Task 06 */
+.task06 > * {
+	margin: 1.4em;
+}
+
+.task06-01 > p {
+	display: list-item;
+	list-style: inside;
+}
+
+.task06-01 > p:nth-child(2) {
+	list-style-image: url("img/color_picker_4_16x16x1.png");
+}
+.task06-01 > p:nth-child(1) {
+	list-style-image: url("img/move_4_16x16x1.png");
+}
+.task06-01 > p:nth-child(3) {
+	list-style-image: url("img/location_4_16x16x1.png");
+}
+.task06-01 > p:nth-child(4) {
+	list-style-image: url("img/vertical_text_4_16x16x1.png");
+}

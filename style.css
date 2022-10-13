@@ -138,6 +138,37 @@ div, span {
 	background: lime;
 }
 
+/* Task05 */
+.task05 {
+	height: 200px;
+	direction: rtl;
+}
+
+.task05 > div {
+	width: 100px;
+	height: 100px;
+	margin: 4px;
+	background: gray;
+	background-repeat: repeat;
+	background-image: url("img/ktimetracker.svg");
+}
+.task05-left {
+	float: left;
+}
+
+.task05-right {
+	float: right;
+	height: 30px !important;
+}
+
+.task05-start {
+	float: inline-start;
+}
+
+.task05-end {
+	float: inline-end;
+}
+
 /* Task 06 */
 .task06 > * {
 	margin: 1.4em;
